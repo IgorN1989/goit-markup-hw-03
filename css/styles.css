@@ -10,7 +10,6 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
-
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
@@ -19,8 +18,26 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+/* Local reset styles */
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 /* Logo */
@@ -31,7 +48,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  text-decoration: none;
 }
 
 .logo-header {
@@ -53,7 +69,6 @@ body {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .nav-item:hover,
@@ -68,7 +83,6 @@ body {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .contacts-item:hover,
@@ -105,7 +119,7 @@ body {
 
 /* Hidden title */
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -162,7 +176,6 @@ body {
 .address {
   color: var(--primary-white-color);
   line-height: calc(24 / 14);
-  text-decoration: none;
   font-style: normal;
 }
 
@@ -170,7 +183,6 @@ body {
 .number {
   color: var(--footer-contacts-color);
   line-height: calc(24 / 14);
-  text-decoration: none;
   font-style: normal;
 }
 
