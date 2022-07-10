@@ -28,7 +28,9 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
+          <a class="logo header-logo" href="./index.html"
+            >Web<span class="black-logo">Studio</span></a
+          >
           <ul class="nav-list list">
             <li class="nav-item"><a class="nav-link current" href="./index.html">Студія</a></li>
             <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
@@ -48,8 +50,8 @@
     </header>
     <!-- Main section -->
     <main>
+      <!-- Hero section -->
       <section class="hero section">
-        <!-- Hero section -->
         <div class="container">
           <h1 class="hero-title">Ефективні рішення <br />для вашого бізнесу</h1>
           <button class="button order-button" type="button">Замовити послугу</button>
@@ -91,8 +93,8 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="specifications-list list">
+            <li class="specifications-item">
               <img
                 src="./images/services/programming.jpg"
                 alt="Створення програм"
@@ -100,7 +102,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="specifications-item">
               <img
                 src="./images/services/mobileapps.jpg"
                 alt="Розробка мобільних додатків"
@@ -108,7 +110,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="specifications-item">
               <img src="./images/services/design.jpg" alt="Дизайн" width="370" height="294" />
             </li>
           </ul>
@@ -118,25 +120,25 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="list">
-            <li>
+          <ul class="team-list list">
+            <li class="teammate">
               <img src="./images/team/photo1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
-              <h3 class="teammate">Ігор Дем'яненко</h3>
+              <h3 class="teammate-title">Ігор Дем'яненко</h3>
               <p class="teammate-position" lang="en">Product Designer</p>
             </li>
-            <li>
+            <li class="teammate">
               <img src="./images/team/photo2.jpg" alt="Ольга Репіна" width="270" height="260" />
-              <h3 class="teammate">Ольга Репіна</h3>
+              <h3 class="teammate-title">Ольга Репіна</h3>
               <p class="teammate-position" lang="en">Frontend Developer</p>
             </li>
-            <li>
+            <li class="teammate">
               <img src="./images/team/photo3.jpg" alt="Микола Тарасов" width="270" height="260" />
-              <h3 class="teammate">Микола Тарасов</h3>
+              <h3 class="teammate-title">Микола Тарасов</h3>
               <p class="teammate-position" lang="en">Marketing</p>
             </li>
-            <li>
+            <li class="teammate">
               <img src="./images/team/photo4.jpg" alt="Михайло Єрмаков" width="270" height="260" />
-              <h3 class="teammate">Михайло Єрмаков</h3>
+              <h3 class="teammate-title">Михайло Єрмаков</h3>
               <p class="teammate-position" lang="en">UI Designer</p>
             </li>
           </ul>
@@ -146,10 +148,12 @@
     <!-- Footer section -->
     <footer class="footer">
       <div class="container">
-        <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+        <a class="footer-logo logo" href="./index.html"
+          >Web<span class="white-logo">Studio</span></a
+        >
         <address class="address">
           <ul class="address-list list">
-            <li>
+            <li class="address-item">
               <a
                 class="address-geo"
                 href="https://goo.gl/maps/RaLyi4AFMYMuKomp6"
@@ -158,8 +162,12 @@
                 >м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
-            <li><a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="address-item">
+              <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-item">
+              <a class="number" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>

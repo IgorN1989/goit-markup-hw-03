@@ -28,10 +28,12 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo" href="./index.html">Web<span class="logo-header">Studio</span></a>
+          <a class="logo header-logo" href="./index.html"
+            >Web<span class="black-logo">Studio</span></a
+          >
           <ul class="nav-list list">
-            <li class="nav-item"><a class="nav-link" href="./index.html">Студія</a></li>
-            <li class="nav-item"><a class="nav-link current" href="./portfolio.html">Портфоліо</a></li>
+            <li class="nav-item"><a class="nav-link current" href="./index.html">Студія</a></li>
+            <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
           </ul>
         </nav>
@@ -53,19 +55,19 @@
           <!-- Examples section -->
         <h1 class="section-title visually-hidden">Наші роботи</h1>
         <ul class="filter list">
-          <li><button class="button filter-button" type="button">Все</button></li>
-          <li><button class="button filter-button" type="button">Веб-сайти</button></li>
-          <li><button class="button filter-button" type="button">Додатки</button></li>
-          <li><button class="button filter-button" type="button">Дизайн</button></li>
-          <li><button class="button filter-button" type="button">Маркетинг</button></li>
+          <li class="filter-item"><button class="button filter-button" type="button">Все</button></li>
+          <li class="filter-item"><button class="button filter-button" type="button">Веб-сайти</button></li>
+          <li class="filter-item"><button class="button filter-button" type="button">Додатки</button></li>
+          <li class="filter-item"><button class="button filter-button" type="button">Дизайн</button></li>
+          <li class="filter-item"><button class="button filter-button" type="button">Маркетинг</button></li>
         </ul>
         <ul class="example-list list">
-          <li>
+          <li class="example-item">
             <img src="./images/portfolio/technocryack.jpg" alt="ноутбук" width="370" height="294" />
             <h2 class="example-title">Технокряк</h2>
             <p class="example-type">Веб-сайт</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/poster-new-orlean-vs-golden-star.jpg"
               alt="два баскетболісти"
@@ -75,7 +77,7 @@
             <h2 class="example-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
             <p class="example-type">Дизайн</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/restaurant-seafood.jpg"
               alt="логотип ресторану"
@@ -85,7 +87,7 @@
             <h2 class="example-title">Ресторан <span lang="en">Seafood</span></h2>
             <p class="example-type">Додаток</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/project-prime.jpg"
               alt="навушники"
@@ -95,7 +97,7 @@
             <h2 class="example-title">Проєкт <span lang="en">Prime</span></h2>
             <p class="example-type">Маркетинг</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/project-boxes.jpg"
               alt="дві коробки"
@@ -105,7 +107,7 @@
             <h2 class="example-title">Проєкт <span lang="en">Boxes</span></h2>
             <p class="example-type">Додаток</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/inspiration-has-no borders.jpg"
               alt="монітор комп'ютера"
@@ -115,7 +117,7 @@
             <h2 class="example-title" lang="en">Inspiration has no Borders</h2>
             <p class="example-type">Веб-сайт</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/publication-limited-edition.jpg"
               alt="книга"
@@ -125,12 +127,12 @@
             <h2 class="example-title">Видання <span lang="en"></span>Limited Edition</h2>
             <p class="example-type">Дизайн</p>
           </li>
-          <li>
+          <li class="example-item">
             <img src="./images/portfolio/project-lab.jpg" alt="етикетка" width="370" height="294" />
             <h2 class="example-title">Проєкт <span lang="en">LAB</span></h2>
             <p class="example-type">Маркетинг</p>
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/portfolio/growing-business.jpg"
               alt="ноутбук на столі"
@@ -145,12 +147,14 @@
         </div>
     </main>
     <!-- Footer section -->
-    <footer class="footer">
+   <footer class="footer">
       <div class="container">
-        <a class="logo" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+        <a class="footer-logo logo" href="./index.html"
+          >Web<span class="white-logo">Studio</span></a
+        >
         <address class="address">
-          <ul class="list">
-            <li>
+          <ul class="address-list list">
+            <li class="address-item">
               <a
                 class="address-geo"
                 href="https://goo.gl/maps/RaLyi4AFMYMuKomp6"
@@ -159,8 +163,12 @@
                 >м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
-            <li><a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="number" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="address-item">
+              <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-item">
+              <a class="number" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
