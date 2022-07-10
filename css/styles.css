@@ -43,6 +43,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -53,9 +57,21 @@ p {
   outline: 2px solid tomato;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
 /* Logo */
 
 .logo {
+  margin-right: 93px;
   color: var(--accent-color);
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -73,33 +89,54 @@ p {
 
 /* Navigation */
 
+.nav-list {
+  display: flex;
+}
+
 .nav-list .current {
   color: var(--accent-color);
 }
 
-.nav-item {
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 34px;
+  padding-bottom: 34px;
+
   color: var(--title-text-color);
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
 /* Contacts */
 
-.contacts-item {
+.contacts-list {
+  display: flex;
+}
+
+.contacts-item:not(:last-child) {
+margin-right: 50px;
+}
+
+
+.contacts-link {
   color: inherit;
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -107,11 +144,12 @@ p {
 
 .hero {
   background-color: var(--footer-background-color);
-  /* (фон тимчасовий) */
+  /* Фон тимчасовий */
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
- }
+  /* Паддінги тимчасові */
+  }
 
 .hero-title {
   color: var(--primary-white-color);
@@ -121,7 +159,7 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  }
+}
 
 /* Section */
 
@@ -167,7 +205,7 @@ p {
 
 .features-text {
   line-height: calc(24 / 14);
- }
+}
 
 /* Specifications */
 
@@ -197,9 +235,8 @@ p {
   background-color: var(--footer-background-color);
 }
 
-
 .address {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .address-geo {
