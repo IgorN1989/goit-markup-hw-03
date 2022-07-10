@@ -194,6 +194,14 @@ margin-right: 50px;
 
 /* Features */
 
+.features-list {
+  display: flex;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-title {
   color: var(--title-text-color);
   font-size: 14px;
