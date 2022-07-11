@@ -240,7 +240,7 @@ border-bottom: 1px solid #ECECEC;
 }
 
 .features-item {
-  width: 270px;
+  width: calc((100%-90px)/4);
 }
 
 .features-item:not(:last-child) {
