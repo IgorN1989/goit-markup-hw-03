@@ -112,8 +112,8 @@ border-bottom: 1px solid #ECECEC;
 
 .nav-link {
   display: block;
-  padding-top: 34px;
-  padding-bottom: 34px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -417,6 +417,7 @@ border-bottom: 1px solid #ECECEC;
   width: 370px;
   
   border: 1px solid #EEEEEE;
+  border-top: 0;
 }
 
 .example-title {
